@@ -1,0 +1,108 @@
+.addInput{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.addInput input{
+    margin: auto;
+    width: 50%;
+    padding: .5rem;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    font-size: 1.5rem;
+    background-color: rgb(237, 245, 242);
+    border: none;
+}
+.addButton{
+    font-size: 1.5rem;
+    background-color: rgb(237, 245, 242);
+    padding: .5rem;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem ;
+    border: none;
+    margin-left: .2rem;
+}
+.addButton:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px;
+    color: rgb(86, 155, 86);
+ 
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .addInput{
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        margin-top: 2.5rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    .addInput input{
+    margin: auto;
+    width: 8rem;
+    padding: .6rem;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    font-size: .8rem;
+    background-color: rgb(237, 245, 242);
+    border: none;
+}
+    .addButton{
+        font-size: .8rem;
+        background-color: rgb(237, 245, 242);
+        padding: .6rem;
+        border-top-right-radius: .5rem;
+        border-bottom-right-radius: .5rem ;
+        border: none;
+        margin-left: 
+        .2rem;
+    }
+    .addButton:hover{
+        cursor: pointer;
+        box-shadow: 1px 1px 1px 1px;
+        color: rgb(86, 155, 86);
+       
+    }
+  }
+
+  @media only screen and (max-width: 650px) {
+    /* For mobile phones: */
+    .addInput{
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+        margin-top: 2.5rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .addInput input{
+    margin: auto;
+    width: 8rem;
+    padding: .4rem;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    font-size: .8rem;
+    background-color: rgb(237, 245, 242);
+    border: none;
+}
+    .addButton{
+        font-size: .8rem;
+        background-color: rgb(237, 245, 242);
+        padding: .4rem;
+        border-top-right-radius: .5rem;
+        border-bottom-right-radius: .5rem ;
+        border: none;
+        margin-left: 
+        .2rem;
+    }
+    .addButton:hover{
+        cursor: pointer;
+        box-shadow: 1px 1px 1px 1px;
+        color: rgb(86, 155, 86);
+      
+    }
+  }

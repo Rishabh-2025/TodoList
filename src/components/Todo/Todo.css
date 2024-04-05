@@ -1,0 +1,49 @@
+.todoContent{
+    margin: auto 0;
+    width: 100%;
+    text-align: center;
+    margin-top: .5rem;
+}
+.todoContent input{
+    height: 1.1rem;
+    width: 3rem;
+    margin: .2rem;
+    cursor: pointer;
+}
+.textupdate{
+    background-color: aliceblue;
+    border: none;
+    padding: .4rem;
+    font-size: 1.2rem;
+    border-radius: .2rem;
+}
+.editButton{
+    background-color: rgb(164, 223, 164);
+    margin-left: 1rem;
+    padding: .6rem;
+    border: none;
+    border-radius: .1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.editButton:hover{
+    cursor: pointer;
+    /* font-weight: 600; */
+    box-shadow: 1px 1px 1px 1px ;
+
+}
+.deleteButton{
+    background-color: rgb(202, 44, 44);
+    margin-left: 1rem;
+    padding: .6rem;
+    border: none;
+    border-radius: .1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.deleteButton:hover{
+    cursor: pointer;
+    /* font-weight: 600; */
+    box-shadow: 1px 1px 1px 1px ;
+
+}
